@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.screen_left, .screen_right {
+	display: inline-block;
+	width: 49.3vw;
+	border: 1px dotted green;
+	height: 100vh;
+}
+
+.screen_left {
+	background-image: url("../imgs/chess_main.jpg");
+	opacity: 0.5;
+}
+.screen_left:hover {
+	opacity: 1;
+}
+
+.screen_right {
+	background-image: url("../imgs/comp_main.jpg");
+	opacity: 0.5;
+}
+.screen_right:hover {
+	opacity: 1;
+}
+
+main {
+}
+
+.wrap {
+	width: 60vw;
+	margin: 0 auto;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	height: 50px;
+	border-bottom: 2px solid #3ae6ca;
+}
+
+.nav_bar {
+	font-size: 32px;
+}
+
+.nav_bar li {
+	display: inline;
+	padding: 5px;
+	border: 1px solid navy;
+	border-radius: 10px;
+}
+
+.courses {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.course {
+	width: 230px;
+	height: 110px;
+	margin: 20px;
+	padding-top: 50px;
+	background-color: greenyellow;
+	border-radius: 50px;
+	border: 5px solid #3ae6ca;
+	text-align: center;
+	font-size: 50px;
+}
+
+.lesson {
+	text-align: center;
+}
+
+.exsersizes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.exsersize {
+	width: 230px;
+	height: 110px;
+	margin: 20px;
+	padding-top: 50px;
+	background-color: greenyellow;
+	border-radius: 50px;
+	border: 5px solid #3ae6ca;
+	text-align: center;
+	font-size: 120px;
+}
+
+
+
+
+/*----------------- стили для упражнений* -----------------*/
+
+h1 {
+	border: 3px solid #fab949;
+	border-radius: 5px;
+	margin: 10px;
+	min-height: 75px;
+}
+
+h2 {
+	border: 3px solid #fab949;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.discription {
+	font-size: 24px;
+	border: 3px solid #fab949;
+	border-radius: 5px;
+	margin: 10px;
+	height: 39vh;
+}
+
+.example {
+	font-size: 24px;
+	border: 3px solid #fab949;
+	border-radius: 5px;
+	margin: 10px;
+	height: 34vh;
+}
+
+/*------------- хлебные крошки ------------------------*/
+.bread_crumbs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 5px solid #fab949;
+	width: 5vw;
+	font-size: 26px;
+}
